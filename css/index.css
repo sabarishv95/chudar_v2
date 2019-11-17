@@ -1,0 +1,190 @@
+/* overriding tempalte css stars*/
+body {
+    font-family: 'Open Sans-SemiBold', sans-serif !important;
+}
+
+* {
+    font-family: inherit !important;
+}
+
+.bg-primary {
+    background: rgba(33, 50, 59, 0.9) !important;
+}
+
+.site-navbar {
+    padding: 0;
+}
+
+.site-logo>a>img{
+    width: 75px;
+    height: 75px;
+}
+
+.site-navbar .site-navigation .site-menu > li > a {
+    color: #000 !important;
+}
+
+.site-navbar .site-navigation .site-menu .active, .site-navbar .site-navigation .site-menu > li.active > a {
+    color: #f7994c !important;
+}
+
+.site-mobile-menu .site-nav-wrap li.active > a {
+    color: #f7994c !important;
+}
+
+.site-mobile-menu .site-nav-wrap a:hover {
+    color: #f7994c !important;
+}
+
+.suscribe-form > .input-group > input{
+    border: 1px solid white !important;
+    color: #fff !important;
+}
+
+form .form-control::-webkit-input-placeholder { 
+    color: #fff;
+}
+  
+form .form-control::-moz-placeholder {
+    color: #fff;
+}
+
+form .form-control:-ms-input-placeholder {
+    color: #fff;
+}
+
+form .form-control:placeholder {
+    color: #fff;
+}
+
+.subscribe-btn {
+    background: #d9534f!important;
+    border: 2px solid #d9534f !important;
+}
+
+.carousel-wrapper {
+    height: calc(100vh - 142px);
+}
+
+.ftco-cover-1, .ftco-cover-1 .container > .row  {
+    height: calc(100vh - 142px);
+}
+
+.carousel-donate-btn {
+    background: #f7994c !important;
+    border: transparent;
+}
+
+.site-navbar .site-navigation .site-menu > .dropdown:hover > a  {
+    color: #f7994c !important;
+}
+
+.dropdown-menu {
+    display: block;
+    opacity: 0;
+    height: 0;
+    visibility: hidden;
+}
+
+.dropdown:hover > .dropdown-menu, .show {
+    opacity: 1;
+    height: auto;
+    visibility: visible;
+    transition: all 0.25s ease-in;
+}
+
+.dropdown-menu {
+    width: 250px;
+}
+
+.dropdown-menu>li:hover > a {
+    color: #f7994c !important;
+}
+
+.site-mobile-menu .site-nav-wrap > li > ul > li > a  {
+    padding: 0;
+}
+
+.site-section {
+    padding: 3rem !important;
+}
+
+.panel-grid-cell {
+    position: relative;
+    z-index: 1;
+}
+
+.sow-headline, .sow-sub-headline {
+    color: #fff;
+}
+
+.post-entry-1 > a {
+    width: 150px;
+    height: 150px;
+    cursor: pointer;
+}
+
+.post-entry-1 > a > img {
+    height: 150px;
+}
+
+.meet-the-team {
+    position: relative;
+}
+
+#person-content {
+    position: absolute;
+    top: 100%;
+    background: #fff;
+    left: 0;
+    width: 100%;
+}
+
+#main {
+    position: relative;
+}
+
+#person-content .icon-close2 {
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 32px;
+}
+
+@media only screen and (max-width: 991px) {
+    .featured-image a img {
+        max-width: 100%;
+    }
+
+    .carousel-wrapper {
+        height: calc(100vh - 75px);
+        min-height: auto !important;
+    }
+    
+    .ftco-cover-1, .ftco-cover-1 .container > .row  {
+        height: calc(100vh - 75px);
+        min-height: auto !important;
+    }
+
+    .dropdown-menu {
+        top: 40px !important;
+        left: 20px !important;
+        transform: translate3d(0,0,0) !important;
+    }
+}
+
+
+@media only screen and (min-width: 992px) {
+
+    .entry-content .featured-image a {
+        padding: 0 2rem;
+    }
+
+    .dropdown-menu {
+        top: 45px !important;
+        left: 15px !important;
+        transform: translate3d(0,0,0) !important;
+    }
+}
+/* overriding tempalte css ends*/
